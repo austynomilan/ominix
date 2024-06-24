@@ -15,10 +15,10 @@ function ImproveCustomerHealth() {
       <div className="w-[100%] h-screen overflow-y-auto">
         <Heros 
         src={herosImg} 
-        heading="customer success team "
-        span1="Boost"
-        span2="efficiency"
-        description="Identify areas for improve workflows, foster open communication, leverage on technology to create a more productive and high-performing team."
+        heading="customer health"
+        span1="Improve"
+        span2=" scores"
+        description="Focus on customer satisfaction, implement strategies that foster trust, and enhance their overall experience and drive growth."
         />
       </div>
       <div>
@@ -26,38 +26,37 @@ function ImproveCustomerHealth() {
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        headings="A one-stop Conversion Solution for every business platform."
-        description="Help clients track Campaign performance, meet targets and measure their level of success and adapt strategies based on real-time insights."
-        subHeadings="Streamlined Marketing Effort"
-        subDescriptions="Digital marketing activities no longer have to be performed separately on the different available platforms.  Eliminates disjointed campaign management effort leaving room for less tasks and more effort."
+        headings="Customer success software your business can’t outgrow"
+        description="Omni X simplifies campaign management by providing a centralized platform for marketers to create, monitor, and analyze digital marketing campaigns across channels, enabling strategic planning."
+        subHeadings="Analyze customer health metrics"
+        subDescriptions="Define the metrics for measuring customer health, which may encompass usage patterns, satisfaction scores, product adoption rates, churn rates, or Net Promoter Score (NPS) to identify trends and areas for enhancement."
         gap={30}
         flexDirection="row"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Efficient Time Management"
-        subDescriptions="Effectively use tools like time tracking software to monitor productivity and identify potential areas for improvement."
+        subHeadings="Conversion Optimization by Customer Health"
+        subDescriptions="Understanding customer health metrics can guide the optimization of the platform to improve conversion rates by monitoring customer satisfaction scores or NPS."
         gap={30}
         flexDirection="row-reverse"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Utilize Technology and Automation"
-        subDescriptions="Implement tools and software that automate repetitive tasks, streamline processes, and improve efficiency."
-        subDescriptions2='"With OmniX, we can streamline the whole conversion process and optimize landing and help identify the most effective strategies to grow revenue."'
-        gap={30}
-        flexDirection="row-reverse"
-        />
-      </div>
-      <div className="w-[100%] m-auto flex justify-center items-center">
-        <Section1 
-        subHeadings="Promote Collaboration and Teamwork"
-        subDescriptions="Foster a collaborative and supportive work environment where team members can openly share ideas, seek help, and collaborate on projects. Encourage cross-functional collaboration to leverage diverse skills and perspectives."
-        subDescriptions2=' "OmniX help enhance team efficiency, productivity, and collaboration, which has led to improved outcomes and success"'
+        subHeadings="Customer Segmentation"
+        subDescriptions="By monitoring usage patterns and product adoption rates, users can be segmented based on their level of engagement or activity to allow for tailored marketing campaigns, product updates, or outreach strategies that are better suited to different customer needs."
         gap={30}
         flexDirection="row"
+        />
+      </div>
+      <div className="w-[100%] m-auto flex justify-center items-center">
+        <Section1 
+        subHeadings="Retention of Customers based on health Score"
+        subDescriptions="Focus more on retaining valuable customers by understanding customer health which allows for more accurate predictions."
+        subDescriptions2='"OmniX is a powerful tool that enables our business to improve customer health by leveraging advanced analytics, AI, and machine learning to gain a comprehensive understanding of their customers, predict future behaviors, and proactively address issues."'
+        gap={30}
+        flexDirection="row-reverse"
         />
       </div>
       <div>

@@ -60,7 +60,7 @@ const data = [
 
 function Slider() {
   return (
-    <div className="container w-[100%] overflow-auto relative">
+    <div className="container w-[100%] overflow-auto relative mt-10">
         <div className='m-auto text-center'>
             <h1 className='text-primary font-extrabold text-[56px]'>Our Partners. Our Friends.</h1>
             <h2 className='font-extrabold text-[#6464C8] text-[56px]'>They love us.</h2>

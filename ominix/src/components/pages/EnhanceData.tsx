@@ -15,10 +15,10 @@ function EnhanceData() {
       <div className="w-[100%] h-screen overflow-y-auto">
         <Heros 
         src={herosImg} 
-        heading="customer success team "
-        span1="Boost"
-        span2="efficiency"
-        description="Identify areas for improve workflows, foster open communication, leverage on technology to create a more productive and high-performing team."
+        heading="customer data"
+        span1="Enhance"
+        span2="visibility"
+        description="Streamline marketing efforts, saving time and resources, and gaining a comprehensive view of campaigns."
         />
       </div>
       <div>
@@ -28,34 +28,41 @@ function EnhanceData() {
         <Section1 
         headings="A one-stop Conversion Solution for every business platform."
         description="Help clients track Campaign performance, meet targets and measure their level of success and adapt strategies based on real-time insights."
-        subHeadings="Streamlined Marketing Effort"
-        subDescriptions="Digital marketing activities no longer have to be performed separately on the different available platforms.  Eliminates disjointed campaign management effort leaving room for less tasks and more effort."
+        subHeadings="Unified Campaign Management"
+        subDescriptions="Create, manage, and optimize digital marketing campaigns across various platforms from a single user dashboard."
         gap={30}
         flexDirection="row"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Efficient Time Management"
-        subDescriptions="Effectively use tools like time tracking software to monitor productivity and identify potential areas for improvement."
+        subHeadings="Simplified User Experience"
+        subDescriptions="Provides an intuitive and user-friendly interface for users to easily navigate the system, create campaigns and access meaningful insights for informed decision-making."
         gap={30}
         flexDirection="row-reverse"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Utilize Technology and Automation"
+        subHeadings="Seamless Cross-Platform Campaign Deployment"
         subDescriptions="Implement tools and software that automate repetitive tasks, streamline processes, and improve efficiency."
-        subDescriptions2='"With OmniX, we can streamline the whole conversion process and optimize landing and help identify the most effective strategies to grow revenue."'
+        gap={30}
+        flexDirection="row"
+        />
+      </div>
+      <div className="w-[100%] m-auto flex justify-center items-center">
+        <Section1 
+        subHeadings="Enhanced Conversion Rates"
+        subDescriptions="Empower digital marketers and clients to achieve high conversion rates for their advertising campaigns using optimization tools and insights to increase conversion rates and a higher return on investment for marketing activities."
         gap={30}
         flexDirection="row-reverse"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Promote Collaboration and Teamwork"
-        subDescriptions="Foster a collaborative and supportive work environment where team members can openly share ideas, seek help, and collaborate on projects. Encourage cross-functional collaboration to leverage diverse skills and perspectives."
-        subDescriptions2=' "OmniX help enhance team efficiency, productivity, and collaboration, which has led to improved outcomes and success"'
+        subHeadings="Comprehensive Data Integration and Analytics"
+        subDescriptions="Provide robust data integration capabilities, enabling clients to collect and analyze campaign data from various platforms in one place by using advanced analytics and reporting tool to make it easier to track campaign performance and adapt strategies based on real-time insights."
+        subDescriptions2='"OmniX offers a unified approach that helps us simplify campaign deployment and reduce the potential for errors and inconsistencies in messaging."'
         gap={30}
         flexDirection="row"
         />

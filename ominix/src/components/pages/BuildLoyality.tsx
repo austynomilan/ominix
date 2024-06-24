@@ -15,10 +15,10 @@ function BuildLoyality() {
       <div className="w-[100%] h-screen overflow-y-auto">
         <Heros 
         src={herosImg} 
-        heading="customer success team "
-        span1="Boost"
-        span2="efficiency"
-        description="Identify areas for improve workflows, foster open communication, leverage on technology to create a more productive and high-performing team."
+        heading="customer"
+        span1="Build"
+        span2="loyalty"
+        description="Deliver exceptional service, engage in personalized interactions, listen to feedback and foster trust to create a memorable experience."
         />
       </div>
       <div>
@@ -26,36 +26,35 @@ function BuildLoyality() {
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        headings="A one-stop Conversion Solution for every business platform."
-        description="Help clients track Campaign performance, meet targets and measure their level of success and adapt strategies based on real-time insights."
-        subHeadings="Streamlined Marketing Effort"
-        subDescriptions="Digital marketing activities no longer have to be performed separately on the different available platforms.  Eliminates disjointed campaign management effort leaving room for less tasks and more effort."
+        headings="Customer success software your business can’t outgrow"
+        description="Omni X serves as a solution to the fragmented campaign management by creating a centralized platform that empowers marketers to design, manage, and track their digital marketing campaigns."
+        subHeadings="Personalize loyalty program offering using customer data"
+        subDescriptions="Understand your customers and track their individual needs and preferences and use that information to make informed decisions about your program. Send targeted and relevant offers and promotions to your customers, improve personal experience, increase customer engagement and boost the effectiveness to improve your conversion rates in the process."
         gap={30}
         flexDirection="row"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Efficient Time Management"
-        subDescriptions="Effectively use tools like time tracking software to monitor productivity and identify potential areas for improvement."
+        subHeadings="Incentivizing customers to participate"
+        subDescriptions="Offer clear benefits for the price that are relevant and valuable to them, offer multiple ways for customers to join, such as online, in-store, or through a mobile app with user-friendly interface, encourage referrals And, make sure that the process of participating and earning rewards is straightforward and easy to understand."
         gap={30}
         flexDirection="row-reverse"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Utilize Technology and Automation"
-        subDescriptions="Implement tools and software that automate repetitive tasks, streamline processes, and improve efficiency."
-        subDescriptions2='"With OmniX, we can streamline the whole conversion process and optimize landing and help identify the most effective strategies to grow revenue."'
+        subHeadings="Manage the Metrics"
+        subDescriptions="Constantly monitor Customer Engagement through reviews, feedback,  and keep track of the participation rate to enhance informed decisions about how to improve where necessary and determine areas of positive impact to drive higher conversion rates"
         gap={30}
         flexDirection="row-reverse"
         />
       </div>
       <div className="w-[100%] m-auto flex justify-center items-center">
         <Section1 
-        subHeadings="Promote Collaboration and Teamwork"
-        subDescriptions="Foster a collaborative and supportive work environment where team members can openly share ideas, seek help, and collaborate on projects. Encourage cross-functional collaboration to leverage diverse skills and perspectives."
-        subDescriptions2=' "OmniX help enhance team efficiency, productivity, and collaboration, which has led to improved outcomes and success"'
+        subHeadings="Integrate marketing strategy"
+        subDescriptions="Collaborate with other channels and leverage it to drive engagement, ensuring consistency with your brand messaging and values, and using customer data to inform your other marketing initiatives, you'll create a more cohesive customer experience and boost your conversion rates in the process."
+        subDescriptions2=' "OmniX offers a solution that is more efficient and effective than existing alternatives. Through it, we have been able to attract new clients and maintain a competitive edge"'
         gap={30}
         flexDirection="row"
         />

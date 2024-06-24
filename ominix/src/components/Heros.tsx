@@ -12,7 +12,7 @@ function Heros({src, description, heading, span1, span2}: props) {
   return (
     <div className="flex w-[100%] items-center bg-[#FAFAFA] px-10 h-[95vh] border-b-2">
       <div className="w-[50%] flex flex-col gap-6">
-        {heading &&  <h1 className="text-[64px] font-bold text-[#363636]">{span1 && <span className="text-primary">{span1}</span>} {heading} {span2 && <span className="text-primary">{span2}</span>}</h1>}
+        {heading &&  <h1 className="text-[64px] font-bold text-[#363636] w-[85%]">{span1 && <span className="text-primary">{span1}</span>} {heading} {span2 && <span className="text-primary">{span2}</span>}</h1>}
        
        {description && <p className="w-[70%]">{description}</p>}
         

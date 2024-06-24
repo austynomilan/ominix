@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ logo, text, user }) => {
   const { avatar, name, role } = user;
 
   return (
-    <div className="flex flex-col gap-6 p-6 w-[80%] h-[100%] bg-primary rounded-2xl text-white ">
+    <div className="flex flex-col gap-6 p-6 w-[100%] h-[80%] bg-primary rounded-2xl text-white ">
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
       </div>

@@ -60,7 +60,7 @@ const data = [
 
 function Slider() {
   return (
-    <div className="container">
+    <div className="container w-[100%] overflow-auto relative">
         <div className='m-auto text-center'>
             <h1 className='text-primary font-extrabold text-[56px]'>Our Partners. Our Friends.</h1>
             <h2 className='font-extrabold text-[#6464C8] text-[56px]'>They love us.</h2>
@@ -87,12 +87,12 @@ function Slider() {
         className="swiper_container"
       >
         {data.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className='w-[360px] p-6 mt-6 mb-20'>
             <Card text={item.text} logo={item.logo} user={item.user} />
           </SwiperSlide>
         ))}
 
-        <div className="slider-controler">
+        <div className="slider-controler ">
           <div className="swiper-button-prev slider-arrow">
             <ArrowLeft />
           </div>
